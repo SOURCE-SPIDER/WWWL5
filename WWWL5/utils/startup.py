@@ -143,7 +143,8 @@ async def startupmessage():
             if BOTLOG:
                 await WWWL5.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "⎊ تم تشغيل سورس سبايدر بنجاح\nلعرض اوامر السورس ارسل `.الاوامر`",
+                    "https://telegra.ph/file/2e8f538cf69b77c527ce6.jpg",
+                    "تم تشغيل سورس سبايدر بنجاح\nلعرض اوامر السورس ارسل `.الاوامر`",
                     buttons=[
                         (Button.url("كروب المساعدة", "https://t.me/EE_47"),)
                     ],

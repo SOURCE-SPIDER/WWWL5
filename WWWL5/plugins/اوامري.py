@@ -8,8 +8,8 @@ from razan.CMD.aomari import *
 
 from ..Config import Config
 from ..core import check_owner
-
-ROE = """** اهلا بك عزيزي المستخدم في قائمة اوامر سبايدر
+WWWL5_IC = "https://telegra.ph/file/ba5e50feaff3c2bbde984.jpg"
+ROE = """** اهلا بك في قائمة اوامر تيلثون سبايدر
 من هنا يمكنك تصفح جميع الاوامر المتاحة **"""
 
 ROZADM = "من هنا يمكنك ايجاد جميع"

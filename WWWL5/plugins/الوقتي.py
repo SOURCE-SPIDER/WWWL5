@@ -66,7 +66,7 @@ async def digitalpicloop():
         img = Image.open(autophoto_path)
         drawn_text = ImageDraw.Draw(img)
         jmthon = str(
-            base64.b64decode("dXNlcmJvdC9oZWxwZXJzL3N0eWxlcy9kaWdpdGFsLnR0Zg==")
+            base64.b64decode("V1dXTDUvaGVscGVycy9zdHlsZXMvZGlnaXRhbC50dGY=")
         )[2:36]
         fnt = ImageFont.truetype(jmthon, 65)
         drawn_text.text((300, 400), current_time, font=fnt, fill=(280, 280, 280))

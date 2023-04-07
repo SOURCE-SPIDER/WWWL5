@@ -132,7 +132,7 @@ async def startupmessage():
                 await WWWL5.tgbot.send_file(
                     BOTLOG_CHATID,
                     "https://telegra.ph/file/2e8f538cf69b77c527ce6.jpg",
-                    caption="**شكرا لتنصيبك تيلثون سبايدر**\n**`لعرض الاوامر ارسل `.الاوامر**",
+                    caption="**شكرا لتنصيبك تيلثون سبايدر**\n**`لعرض الاوامر ارسل `.الاوامر**\n**اضغط على الزر ي الاسفل**",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")
@@ -143,7 +143,7 @@ async def startupmessage():
             if BOTLOG:
                 await WWWL5.tgbot.send_message(
                     BOTLOG_CHATID,
-                    "**تم تشغيل سورس سبايدر بنجاح**\➖➖➖➖➖➖➖➖➖➖\n**قناة السورس: @EE_20**\n**قناة الكلايش: @EE_74**\n**مطور السورس: @WWWL5**\n➖➖➖➖➖➖➖➖➖➖\n**لعرض الاوامر ارسل `.الاوامر`**",
+                    "**تم تشغيل سورس سبايدر بنجاح**\n➖➖➖➖➖➖➖➖➖➖\n**قناة السورس: @EE_20**\n**قناة الكلايش: @EE_74**\n**مطور السورس: @WWWL5**\n➖➖➖➖➖➖➖➖➖➖\n**لعرض الاوامر ارسل `.الاوامر`**",
                     buttons=[
                         (Button.url("كروب المساعدة", "https://t.me/EE_47"),)
                     ],

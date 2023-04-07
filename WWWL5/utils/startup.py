@@ -111,8 +111,8 @@ async def mybot():
             await WWWL5.send_message("@G1SPIDERbot", "/start")
             await asyncio.sleep(1)
             await WWWL5.send_message(
-                "@jmthon_bot",
-                "تم بنجاح تشغيل سورس سبايدر عزيزي المستخدم هذا البوت سيتم تشغيله قريبا بعد اكماله",
+                "@G1SPIDERbot",
+                "🕷 تم بنجاح تشغيل سورس سبايدر ⎊",
             )
             await asyncio.sleep(1)
             await WWWL5.send_message("@BotFather", "/setinline")
@@ -132,7 +132,7 @@ async def startupmessage():
                 await WWWL5.tgbot.send_file(
                     BOTLOG_CHATID,
                     "https://telegra.ph/file/2e8f538cf69b77c527ce6.jpg",
-                    caption="**شكرا لتنصيبك سورس سبايدر**\n • هنا بعض الملاحظات التي يجب ان تعرفها عن استخدامك لسورس سبايدر.",
+                    caption="⎊ **شكرا لتنصيبك سورس سبايدر**\n⎊ **تم تشغيل سورس سبايدر بنجاح 🕷**\n⎊ **لعرض اوامر السورس ارسل** `.الاوامر`",
                     buttons=[(Button.inline("اضغط هنا", data="initft_2"),)],
                 )
                 addgvar("DEPLOY", "Done")

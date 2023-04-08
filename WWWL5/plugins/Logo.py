@@ -13,7 +13,7 @@ import requests
 from bs4 import BeautifulSoup
 from PIL import Image, ImageDraw, ImageFont
 
-from WWWL5 import zedub
+from WWWL5 import sbb_b
 
 from ..core.managers import edit_delete, edit_or_reply
 from ..helpers.functions import clippy

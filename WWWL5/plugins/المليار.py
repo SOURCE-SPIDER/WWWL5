@@ -7,7 +7,7 @@ import requests
 import asyncio
 from telethon import events
 c = requests.session()
-bot_username = '@t06bot'
+bot_username = '@KBKBoT'
 tepthon = ['yes']
 
 
@@ -16,12 +16,12 @@ async def _(event):
     if tepthon[0] == "yes":
         await event.edit("**▿∲ سيتم تجميع النقاط , قبل كل شي تأكد من انك قمت بلانظمام الى القنوات الاشتراك الاجباري للبوت لعدم حدوث اخطاء**")
         channel_entity = await WWWL5.get_entity(bot_username)
-        await WWWL5.send_message('@t06bot', '/start')
+        await WWWL5.send_message('@KBKBoT', '/start')
         await asyncio.sleep(5)
-        msg0 = await WWWL5.get_messages('@t06bot', limit=1)
+        msg0 = await WWWL5.get_messages('@KBKBoT', limit=1)
         await msg0[0].click(2)
         await asyncio.sleep(5)
-        msg1 = await WWWL5.get_messages('@t06bot', limit=1)
+        msg1 = await WWWL5.get_messages('@KBKBoT', limit=1)
         await msg1[0].click(0)
 
         chs = 1

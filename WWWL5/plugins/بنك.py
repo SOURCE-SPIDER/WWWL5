@@ -125,7 +125,7 @@ async def ga(message):
     ms = message.text
     acc = get_bank(mee.id)
  
-    if ms == ".المصرف" or ms == ".البنك" or ms == ".مصرف":
+    if ms == ".المصرف" or ms == ".مصرف" or ms == ".مصرف":
 
 
         help = """

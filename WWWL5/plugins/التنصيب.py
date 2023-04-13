@@ -3,7 +3,7 @@ from ..Config import Config
 from ..sql_helper.globals import gvarstatus
 from SPIDER.razan.resources.mybot import *
 
-ROZ_PIC = "https://telegra.ph/file/2e8f538cf69b77c527ce6.jpg"
+ROZ_PIC = "https://graph.org/file/3392be0b804c200c49228.jpg"
 
 if Config.TG_BOT_USERNAME is not None and tgbot is not None:
     @tgbot.on(events.InlineQuery)

@@ -182,7 +182,7 @@ async def _(event):
         if gvarstatus("autoname") is not None and gvarstatus("autoname") == "true":
             delgvar("autoname")
             await event.client(
-                functions.account.UpdateProfileRequest(first_name=DEFAULTUSER)
+                functions.account.UpdateProfileRequest(last_name=DEFAULTUSER)
             )
             return await edit_delete(event, "**- تم بنجاح ايقاف الاسم الوقتي**")
         return await edit_delete(event, "**- الاسم الوقتي غير شغال اصلا**")

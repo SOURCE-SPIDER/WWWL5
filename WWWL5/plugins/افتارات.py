@@ -226,7 +226,7 @@ async def _(event):
         await event.client.send_file(
             event.chat_id,
             file=random.choice(zedgan),
-            caption=f"**✦┊تم اختياࢪ الاغنيـه لك 💞🎶**ٴ▁ ▂ ▉ ▄ ▅ ▆ ▇ ▅ ▆ ▇ █ ▉ ▂ ▁\n\n[➧𝖈𝖗 𝖘𝖔𝖚𝖗𝖈𝖊](https://t.me/EE_20)",
+            caption=f"**✦┊تم اختياࢪ الاغنيـه لك 💞🎶**ٴ▁ ▂ ▉ ▄ ▅ ▆ ▇ ▅ ▆ ▇ █ ▉ ▂ ▁\n\n[➧᥉᥆υᖇᥴᥱ ᥉ρᎥժᥱᖇ](https://t.me/EE_20)",
         )
         await zzevent.delete()
     except Exception:

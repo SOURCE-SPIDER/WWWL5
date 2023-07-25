@@ -1,4 +1,5 @@
-#الملف بحقوق سورس سبايدر @EE_20 بواسطة @WWWL5
+#الملف بحقوق سورس سبايدر @EE_20
+#تم انشاء الملف بواسطة @WWWL5
 import asyncio
 import os
 from secrets import choice
@@ -19,6 +20,47 @@ from ..helpers import get_user_from_event
 from ..helpers.utils import _format
 
 from . import reply_id
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="بيت الروبي$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/61"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ فيلم بيت الروبي 2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="تاج$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/62"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ فيلم تاج 2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="مستر اكس$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/63"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ فيلم مستر اكس 2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="البعبع$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/64"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ فيلم البعبع 2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="يوم 13$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/65"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ فيلم يوم 13\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="شوجر دادي$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/66"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ فيلم شوجر دادي\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
 
 
 @WWWL5.on(admin_cmd(outgoing=True, pattern="هارلي$"))
@@ -403,4 +445,367 @@ async def jepvois(Video):
 async def jepvois(Video):
   url = f"https://t.me/EE_SPI/60"
   await Video.client.send_file(Video.chat_id,url,caption="⎊︙ مسرحية بودي جارد (1999) | بجودة #480p\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Avatar The Way of Water$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/101"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Avatar: The Way of Water 2022\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Dinosaur world$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/102"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Dinosaur world\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="The Tomorrow Job$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/103"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ The.Tomorrow.Job.2023.360p\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Pillow Party Massacre$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/104"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Pillow.Party.Massacre.2023.360p\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="From Black$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/105"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ From.Black.2023.360p\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Clock$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/106"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Clock.2023.360p\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Aka$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/107"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Aka.2023.360p\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="The Fearway$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/108"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ The.Fearway.2023.360p.BluRay\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Breakout$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/109"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Breakout [2023]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Jesus Revolution$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/110"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Jesus Revolution [2023]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Dungeons Dragons$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/111"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Dungeons & Dragons: Honor Among Thieves [2023]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="The Best Man$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/112"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ The.Best.Man.2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="The Irish Mob$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/113"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ The.Irish.Mob.2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Sisu$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/114"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Sisu.2022\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Maid For Revenge$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/115"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Maid.For.Revenge.2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Polite Society$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/116"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Polite.Society.2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Homestead$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/117"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Homestead.2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="bull shark$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/118"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ bull.shark.2022\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Tin and Tina$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/119"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Tin and Tina 2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Evil dead risev$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/120"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Evil dead rise 2023\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Iron Man1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/68"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Iron.Man.2008.BluRay.720p\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Iron Man2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/69"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ .Iron.Man.2.2010.BluRay.720p \n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Iron Man3$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/70"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Iron Man Three (2013)\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Spider man1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/71"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Spider-man [2002] الجزء الأول\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Spider man2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/72"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Spider-Man 2 [2004] الجزء الثانى\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Spider man3$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/73"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Spider-Man 3 [2007] الجزء الثالث\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="The Amazing Spider Man1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/74"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ The Amazing Spider-Man [2012]الجزء الاول\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="The Amazing Spider Man2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/75"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ The Amazing Spider-Man 2 [2014] الجزء الثانى\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Venom1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/76"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Venom [2018] الجزء الاول\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Venom2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/77"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Venom: Let There Be Carnage [2021] الجزء الثانى\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Thor1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/78"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Thor 2011\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Thor2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/79"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Thor: The Dark World (2013)\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Deadpool1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/80"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Deadpool [2016] الجزء الاول\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Deadpool2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/81"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Deadpool 2 [2018] الجزء الثانى\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Captain America1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/82"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Captain America The First Avenger 2011\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Captain America2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/83"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Captain America: The Winter Soldier 2014\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Captain America3$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/84"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Captain America Civil War 2016\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Doctor Strange1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/85"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Doctor Strange 2016\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Doctor Strange2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/86"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Doctor Strange in the Multiverse of Madness [2022]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Spider Man Homecoming$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/87"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Spider-Man: Homecoming 2017\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Spider Man Far From Home$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/88"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Spider-Man: Far From Home 2019\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Spider Man No Way Home$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/89"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Spider-Man: No Way Home [2022]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Black panther1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/90"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Black panther 2018\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Black panther2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/91"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Black Panther: Wakanda Forever [2022]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Avengers Infinity War$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/93"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Avengers Infinity War 2018\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Avengers Endgame$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/94"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Avengers: Endgame 2019\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Ant Man1$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/95"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Ant-Man 2015\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Ant Man2$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/96"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Ant-Man and the Wasp 2018\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Ant Man3$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/97"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Ant-Man and the Wasp: Quantumani [2023]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Black Widow$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/98"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Black Widow [2021]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="Shang Chi$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/99"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ Shang-Chi and the Legend of the Ten Rings [2021]\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
+  await Video.delete()
+
+
+@WWWL5.on(admin_cmd(outgoing=True, pattern="The Avengers$"))
+async def jepvois(Video):
+  url = f"https://t.me/EE_SPI/100"
+  await Video.client.send_file(Video.chat_id,url,caption="⎊︙ The Avengers 2012\n⎊︙ BY : @EE_20 🎬",parse_mode="html")
   await Video.delete()
